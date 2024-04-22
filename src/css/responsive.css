@@ -1,0 +1,481 @@
+/* RESPONSIVE HOME */
+
+@media (max-width: 900px) {
+
+    body {
+        background-size: 500px 402px;
+    }
+
+    .home .img-vitor {
+        height: 400px;
+    }
+
+    .home .home-desc {
+        width: 300px;
+        line-height: 2.2em;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .home .home-desc h1 {
+        font-size: 2.8rem;
+    }
+
+    .home .home-desc h2 {
+        font-size: 2.5rem;
+    }
+
+    .home .home-desc p {
+        font-size: 1.6rem;
+        margin-top: 24px;
+    }
+
+    .agendar .btn-agendar {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo:hover {
+        border-radius: 2px;
+        width: 14rem;
+    }
+
+    .home .img-vitor {
+        height: 300px;
+        margin-left: 0px;
+    }
+
+    .home .home-desc {
+        line-height: 2.2em;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .home .home-desc h1 {
+        font-size: 26px;
+    }
+
+    .home .home-desc h2 {
+        font-size: 23px;
+    }
+
+    .home .home-desc p {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+
+    .agendar .btn-agendar {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    body {
+        background-size: 500px 402px;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .logo:hover {
+        border-radius: 2px;
+        width: 10rem;
+    }
+
+    .home-conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 20px 0px;
+    }
+
+    .home .img-vitor {
+        margin: 0;
+    }
+
+    .home .home-desc {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .home .home-desc h1 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .home .home-desc h2 {
+        font-size: 23px;
+    }
+
+    .home .home-desc p {
+        margin-top: 19px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .agendar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 20px 20px;
+    }
+}
+
+/* RESPONSIVE BENEFÍCIOS */
+
+@media (max-width: 900px) {
+    .beneficios .bene-conteudo .cards {
+        height: 280px;
+        width: 270px;
+        border-radius: 15px;
+        margin: 10px;
+        transition: transform 0.4s ease;
+    }
+
+    .beneficios .bene-conteudo .cards h2 {
+        font-weight: 800;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .beneficios .bene-conteudo .cards p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    .beneficios .beneficios h1 {
+        font-size: 2.6rem;
+        margin: 40px 10px;
+        text-align: center;
+    }
+
+    .beneficios .bene-conteudo {
+        width: 400px;
+    }
+
+    .beneficios .bene-conteudo .cards {
+        height: 260px;
+        width: 265px;
+        margin: 8px;
+    }
+}
+
+/* RESPONSIVE RESULTADO */
+
+@media (max-width: 900px) {
+
+    .resultados {
+        height: 650px;
+    }
+
+    .resultados .swiper {
+        width: 640px;
+    }
+
+    .resultados .swiper-slide img {
+        width: 480px;
+        height: 480px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .resultados {
+        height: 500px;
+        margin-top: 70px;
+    }
+    
+    .resultados .h1-resultados h1 {
+        font-size: 2.6rem;
+        margin: 40px 10px;
+    }
+    
+    .resultados .swiper {
+        width: 300px;
+    }
+    
+    .resultados .swiper-slide {
+        text-align: center;
+    }
+    
+    .resultados .swiper-slide img {
+        border: solid 1px;
+        width: 290px;
+        height: 290px;
+    }
+
+}
+/* RESPONSIVO CARREIRA */
+
+@media (max-width: 1120px) {
+
+    .carreira {
+        height: 750px;
+    }
+
+    .carreira .car-desc {
+        width: 530px;
+        height: 430px;
+        margin-right: 20px;
+        padding: 25px;
+    }
+
+    .carreira .car-desc h3 {
+        font-size: 2.5rem;
+        margin-bottom: 14px;
+        font-weight: 800;
+        letter-spacing: 0.50px;
+    }
+
+    .carreira .car-desc p {
+        margin-top: 3px;
+        font-size: 1.6rem;
+    }
+
+    .carreira .campeao {
+        margin: 15px;
+        height: 490px;
+    }
+}
+
+@media (max-width: 900px) {
+
+
+    .carreira .car-desc {
+        width: 420px;
+        margin-right: 0px;
+        padding: 20px;
+    }
+
+    .carreira .car-desc h3 {
+        font-size: 2.3rem;
+    }
+ 
+    .carreira .campeao {
+        margin: 15px;
+        height: 490px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .carreira {
+        height: 950px;
+    }
+
+    .carreira .car-conteudo {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .carreira .car-desc {
+        width: 450px;
+        margin-right: 0px;
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #121117;
+        border: 0px solid #ffffff6f;
+    }
+
+    .icon-trofeu {
+        min-height: 70px;
+        width: 75px;
+        border-radius: 10px;
+        background-color: #18181d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .carreira .car-desc h3 {
+        font-size: 2.8rem;
+        margin-bottom: 14px;
+        font-weight: 800;
+        letter-spacing: 0.50px;
+    }
+
+    .carreira .car-desc p {
+        margin-top: 3px;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .carreira .campeao {
+        margin: 40px 0px;
+        height: 490px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .carreira .car-desc {
+        width: 320px;
+    }
+
+    .carreira .car-desc h3 {
+        font-size: 2.3rem;
+    }
+
+    .carreira .car-desc p {
+        font-size: 1.6rem;
+    }
+
+}
+
+/* RESPONSIVO CONTATO */ 
+
+@media (max-width: 1130px) {
+
+    .contato .image-contato img {
+        margin-right: 0px;
+    }
+
+    .contato .con-desc {
+        width: 500px;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .contato .con-desc h3 {
+        font-size: 3.8rem;
+    }
+
+    .contato .con-desc p {
+        font-size: 1.7rem;
+    }
+    
+}
+
+@media (max-width: 900px) {
+
+    .contato .con-desc {
+        width: 440px;
+        line-height: 2.5em;
+    }
+
+    .contato .con-desc h3 {
+        font-size: 3.5rem;
+    }
+
+    .contato .con-desc p {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .contato {
+        height: 750px;
+        margin-top: 100px;
+    }
+
+    .contato .con-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .contato .image-contato img {
+        height: 230px;
+        width: 230px;
+    }
+
+    .contato .con-desc {
+        margin-top: 30px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contato .con-desc h3 {
+        font-size: 2.6rem;
+    }
+
+    .contato .con-desc p {
+        font-size: 1.6rem;
+        margin-bottom: 13px;
+    }
+
+    .contato .con-container .contato-agendar {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .contato .image-contato img {
+        height: 240px;
+        width: 240px;
+    }
+
+    .contato .con-desc {
+        margin-top: 35px;
+        margin-left: 0px;
+        line-height: 2em;
+        width: 300px;
+    }
+
+    .contato .con-desc h3 {
+        font-size: 2.6rem;
+    }
+
+    .contato .con-desc p {
+        font-size: 1.6rem;
+    }
+
+    .contato .con-container .btn {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+}
+
+/* RESPONSIVO RODAPÉ */
+
+@media (max-width: 580px) {
+
+    .rodape {
+        padding: 10px 20px;
+    }
+
+    .rodape .navegacao {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .rodape .navegacao .logo {
+        margin-bottom: 70px;
+        align-items: center;
+    }
+
+    .rodape .navegacao .logo, 
+    .rodape .navegacao .rede-sociais {
+        width: 100%;
+        justify-content: center;
+    }
+
+}

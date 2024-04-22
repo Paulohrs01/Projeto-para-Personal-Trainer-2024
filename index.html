@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto para Personal Trainer</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <span class="titulo">🏋️‍♂️ LOGO</span>
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="menu-hamburguer" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul class="lista-home">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
+                <li><a href="#resultados" class="nav-link">Resultados</a></li>
+                <li><a href="#carreira" class="nav-link">Carreira</a></li>
+                <li><a href="#contato" class="btn-menu">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-conteudo">
+                <div class="home-img">
+                    <img class="img-vitor" src="./src/images/foto-vitor.jpg" alt="foto Vitor Filipp">
+                </div>
+
+                <div class="home-desc">
+                    <h1>BORA TREINAR</h1>
+                    <h2>É hora de evoluir.</h2>
+                    <p>Meu nome é "x nome", sou formado em Educação Física. Aproveite todas as vantagens de ter um personal trainer capacitado em "x Cidade",
+                        para te oferecer o melhor treinamento personalizado.
+                        
+                    </p>
+                    <div class="agendar">
+                        <a class="btn" href="#contato">Agende sua aula</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="beneficios" id="beneficios">
+            <div>
+                <h1>Benefícios da Academia</h1>
+            </div>
+            <div class="bene-conteudo">
+                <div class="cards">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/brains--v1.png"
+                        alt="brains--v1" />
+                    <h2>Saúde e Mental</h2>
+                    <p>A academia melhora a saúde mental ao liberar endorfinas, reduzindo o estresse e a ansiedade,
+                        melhorando o humor e a autoestima.</p>
+                </div>
+                <div class="cards">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/flex-biceps.png"
+                        alt="flex-biceps" />
+                    <h2>Força e Resistência</h2>
+                    <p>Os exercícios de força na academia aumentam a massa muscular e a resistência, melhorando
+                        a capacidade de realizar atividades diárias e reduzindo o risco de lesões.</p>
+                </div>
+                <div class="cards">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/heart-with-pulse--v1.png"
+                        alt="heart-with-pulse--v1" />
+                    <h2>Cardio</h2>
+                    <p>Os exercícios cardiovasculares reduzem o risco de doenças cardíacas, fortalecem o coração e os
+                        pulmões,
+                        melhorando a circulação sanguínea, a resistência e a capacidade de se recuperar
+                        após esforços físicos.</p>
+                </div>
+                <div class="cards">
+                    <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/gum-.png" alt="gum-" />
+                    <h2>Disposição</h2>
+                    <p>A prática de exercícios na academia aumenta os níveis de energia e vitalidade,
+                        reduzindo a fadiga e aumentando a disposição para enfrentar as demandas do dia a dia.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="resultados" id="resultados">
+            <div class="h1-resultados">
+                <h1>Resultados de Alunos</h1>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./src/images/antes-depois-mulher1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./src/images/antes-depois-mulher2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./src/images/antes-depois-homem1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/62/5a/22/625a22205788343f430776dad3adc354.jpg" alt="">
+                        </div>
+                    </div>
+                    ...
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <section class="carreira" id="carreira">
+            <div class="car-conteudo">
+                <div class="car-desc">
+                    <div class="icon-trofeu">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/ffffff/trophy--v2.png"
+                            alt="trophy--v2" />
+                    </div>
+                    <h3>Busquei conhecimento com os melhores do mundo</h3>
+                    <p>Participei do seminário em Curitiba-PR com o lendário Dorian Yates, 6x campeão do Mr. Olympia.
+                        Essa experiência me permitiu aprimorar minha metodologia de treino, garantindo que eu possa
+                        oferecer a você o melhor treinamento personalizado, adaptado às suas necessidades e objetivos.
+                        Conte comigo para alcançar resultados.</p>
+                </div>
+                <div>
+                    <img class="campeao" src="./src/images/campeao.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contato" id="contato">
+            <div class="con-container">
+                <div class="image-contato">
+                    <img src="./src/images/foto-com-alunas-v1.png" alt="Foto com alunas na Academia Makanali">
+                </div>
+                <div class="con-desc">
+                    <h3>Entre em Contato</h3>
+                    <p>Estou pronto para transformar sua vida criando um treinamento
+                        personalizado dentro das suas necessidades individuais.
+                        Como seu Personal Trainer em "x Cidade", estou comprometido
+                        em oferecer os melhores serviços para ajudar você a atingir seus objetivos.
+                    </p>
+                    <p>Entre em contato comigo no botão abaixo para agendar uma aula.
+                    </p>
+                    <div class="contato-agendar agendar">
+                        <a class="btn" href="https://api.whatsapp.com/send/?phone=5567998512564&text=Oi%2C+Paulo%21+Tenho+interesse+no+seu+
+                        desenvolvimento+de+site.&type=phone_number&app_absent=0">Agendar aula</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape" id="contato">
+        <nav class="navegacao">
+
+            <div class="logo">
+                <a href="#">
+                    <span class="titulo">🏋️‍♂️ LOGO</span>
+                </a>
+            </div>
+
+            <div class="rede-sociais">
+
+                <a href="https://api.whatsapp.com/send/?phone=5567998512564&text=Oi%2C+Paulo%21+Tenho+interesse+no+seu+
+                desenvolvimento+de+site.&type=phone_number&app_absent=0" class="rede-social">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/vitorfilipp/" class="rede-social">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </nav>
+        
+        <div class="desenvolvido">
+            <span>Site Desenvolvido por <a href="https://www.instagram.com/paulohrs01/">@Paulohrs01</a></span>
+        </div>
+    </footer>
+
+    <!--  -->
+    <script src="https://kit.fontawesome.com/33324df00c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

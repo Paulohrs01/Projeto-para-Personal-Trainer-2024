@@ -1,0 +1,354 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #121117;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    background-image: url(../images/fundo-home-blur-opacidade-30-1153x768.png);
+    background-repeat: no-repeat;
+    background-size: 100% 625px;
+    height: 79vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px;
+}
+
+ .logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    transition: 0.3s ease-in-out;
+}
+
+ .logo:hover {
+    background-color: #d00a2b;
+    color: #FFF;
+    border-radius: 3px;
+    width: 15rem;
+}
+
+/* HOME */
+
+.home-conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 60px 80px 0px;
+}
+
+.home .img-vitor {
+    height: 450px;
+    border-radius: 30px;
+    margin: 0px 40px;
+}
+
+.home .home-desc {
+    line-height: 2.7em;
+    letter-spacing: 0.16px;
+    margin-left: 20px;
+    margin-top: 45px;
+    width: 600px;
+}
+
+.home .home-desc h1 {
+    font-size: 36px;
+    color: #d00a2b;
+    margin-bottom: 17px;
+}
+
+.home .home-desc h2 {
+    font-size: 30px;
+}
+
+.home .home-desc p {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.agendar .btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    margin-top: 35px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #d00a2b;
+    color: #FFF;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.agendar .btn:hover {
+    background-color: #d00a2b;
+    transform: scale(1.1);
+}
+
+/* BENEFÍCIOS */
+
+.beneficios {
+    letter-spacing: 0.50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.beneficios h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.beneficios .bene-conteudo {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.beneficios .bene-conteudo .cards {
+    height: 300px;
+    width: 300px;
+    background-color: #18181d;
+    border: 1px solid #ffffff6f;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    transition: transform 0.4s ease;
+}
+
+.beneficios .bene-conteudo .cards:hover {
+    background-color: #222229c7;
+    transform: scale(1.1);
+}
+
+.beneficios .bene-conteudo .cards img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.beneficios .bene-conteudo .cards h2 {
+    font-weight: 800;
+    font-size: 2.2rem;
+    margin-top: 10px;
+}
+
+.beneficios .bene-conteudo .cards p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+/* RESULTADOS */
+
+.resultados {
+    margin-top: 100px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #121117, #141318, #15151a, #17161b, #18181d);
+}
+
+.resultados .h1-resultados h1 {
+    text-align: center;
+    letter-spacing: 0.50px;
+    font-weight: 100;
+    font-size: 4rem;
+    margin: 50px 0px;
+}
+
+.resultados .swiper {
+    width: 700px;
+}
+
+.resultados .swiper-slide {
+    text-align: center;
+}
+
+.resultados .swiper-slide img {
+    border: solid 2px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.674);
+}
+
+/* CARREIRA */
+
+.carreira {
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carreira .car-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carreira .car-desc {
+    width: 650px;
+    height: 450px;
+    background-color: #18181d;
+    margin-right: 30px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.carreira .car-desc h3 {
+    font-size: 3rem;
+    color: #d00a2b;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-weight: 800;
+    letter-spacing: 0.50px;
+}
+
+.carreira .car-desc p {
+    font-size: 1.8rem;
+    line-height: 1.5em;
+    letter-spacing: 0.16px;
+}
+
+.carreira .campeao {
+    height: 550px;
+    border-radius: 40px;
+    margin: 0px 40px;
+    border: 1px solid #FFF;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.674);
+    transition: transform 0.4s ease;
+
+}
+
+.carreira .campeao:hover {
+    transform: scale(1.1)
+}
+
+/* CONTATO */
+
+.contato {
+    background-image: linear-gradient(to top, #121117, #141318, #15151a, #17161b, #18181d);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .con-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.contato .image-contato img {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.contato .con-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 15px;
+    margin-left: 30px;
+    line-height: 2.7em;
+}
+
+.contato .con-desc h3 {
+    font-size: 4rem;
+    color: #d00a2b;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 0.50px;
+}
+
+.contato .con-desc p {
+    font-size: 2rem;
+    letter-spacing: 0.50px;
+    margin-bottom: 5px;
+}
+
+.contato .con-container .contato-agendar {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.contato .con-container .contato-agendar a {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    padding: 30px 20px;
+    font-size: 3rem;
+    border-top: solid 1px rgba(255, 255, 255, 0.216);
+}
+
+.rodape .navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.rodape .rede-sociais {
+    display: flex;
+}
+
+.rodape .rede-sociais a {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .rede-sociais a:hover {
+   background-color: #d00a2b;
+}
+
+.rodape .desenvolvido {
+    margin-top: 60px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape .desenvolvido a {
+    color: rgb(91, 91, 252);
+}
+
