@@ -5,7 +5,7 @@ Projeto que desenvolvi para o Personal Trainer conseguir mostrar sua carreira, s
 
 ## Demonstração da seção home em desktop:
 
-[<img src="./src/images/Readme-files/preview-desktop.png" height="305px" alt="imagem da home do projeto Personal Trainer no desktop">](https://paulohrs01.github.io//)
+[<img src="./src/images/Readme-files/preview-desktop.png" height="305px" alt="imagem da home do projeto Personal Trainer no desktop">](https://paulohrs01.github.io/Projeto-para-Personal-Trainer-2024/)
 
 <br>
 
